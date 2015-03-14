@@ -1,0 +1,155 @@
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+
+[class*="entypo-"]:before {
+    font-family: 'entypo', sans-serif;
+}
+
+*
+{
+    padding: 0;
+    margin:0;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+
+}
+.opcion{
+    list-style: none;
+}
+body
+{
+    background-attachment: fixed;
+    background-repeat: repeat;
+    background:url("Images/bg.png");
+}
+.Container
+{
+    width: 1170px;
+    position: absolute;
+
+}
+.Login-Container
+{
+    position: relative;
+    width: 400px;
+    margin: 80px auto;
+    padding: 20px 40px 40px;
+    text-align: center;
+    background: #fff;
+    border: 1px solid #ccc;
+    background-attachment: fixed;
+    background-repeat: repeat;
+    background:url("Images/gridme.png");
+    border: 2px solid #000;
+
+}
+
+.Login-Container1
+{
+    background-color: black;
+    width: 500px;
+    height: 500px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    margin-top: -250px;   /* height/2 = 500px / 2 */
+    margin-left: -250px;
+
+}
+.Login-Container::before, .Login-Container::after 
+{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 3.5px;
+    left: 0;
+    background: #fff;
+    z-index: -1;
+    -webkit-transform: rotateZ(4deg);
+    -moz-transform: rotateZ(4deg);
+    -ms-transform: rotateZ(4deg);
+    border: 2px solid #000;
+    background-attachment: fixed;
+    background-repeat: repeat;
+    background:url("Images/gridme.png");
+}
+.Login-Container::after 
+{
+    top: 5px;
+    z-index: -2;
+    -webkit-transform: rotateZ(-2deg);
+    -moz-transform: rotateZ(-2deg);
+    -ms-transform: rotateZ(-2deg);
+}
+.avatar
+{
+    width: 100px;
+    height: 100px;
+    margin: 10px auto 30px;
+    border-radius: 5px 5px 5px 5px;
+    border: 1px solid #aaa;
+    background-size: cover;
+}
+.Form-box input[type="text"]
+{
+    border-radius: 5px 5px 0 0;
+    text-transform: lowercase;
+    text-align: left;
+}
+.Form-box input 
+{
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    height: 40px;
+    border: 1px solid #ccc;
+    background: #fafafa;
+    transition: 0.2s ease-in-out;
+    font: 12px/1.4 "Merriweather","HelveticaNeue",Helvetica,Arial,sans-serif;
+}
+.Form-box input[type="password"] 
+{
+    border-radius: 0 0 5px 5px;
+    border-top: 0;
+    text-align: left;
+}
+.img-responsive
+{
+    background-size: cover;
+}
+.icon
+{
+
+    max-width: 100%;
+}
+.input-group
+{
+    width: 100%;
+}
+.input-group-addon:first-child
+{
+    width: 39px;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover
+{
+    background-color:   beige;
+
+}
+.config {
+    border-bottom:  solid #000;
+    border-bottom-width:  medium;
+    
+    
+}
+
+#menu {
+    visibility: hide;
+}
+
+
+
+
+
