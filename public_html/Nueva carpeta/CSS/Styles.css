@@ -144,10 +144,14 @@ body
     
     
 }
-
-#menu {
-    visibility: hide;
+.opcion{
+    background-color:  black;
+    color: #fafafa;
+    text-align: center;
 }
+//.menu{
+   // position: fixed;
+//}
 
 
 
